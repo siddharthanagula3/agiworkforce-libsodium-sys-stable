@@ -1,3 +1,9 @@
+# AGI Workforce ZIP 9 compatibility branch
+
+This branch keeps the published libsodium-sys-stable 1.23.2 source at upstream commit `62c295e26c464fb8d98d34a667ef09fe48f47e36`, with its ZIP build dependency pinned to 9.0.4 and the resulting Rust 1.88 minimum declared. ZIP 9 fixes RUSTSEC-2026-0367, RUSTSEC-2026-0368 and RUSTSEC-2026-0369. Runtime bindings and the upstream licenses remain unchanged.
+
+AGI Workforce pins the reviewed commit rather than a moving branch. This is a compatibility patch, not an upstream release. The original project documentation follows.
+
 # libsodium-sys
 
 A patched version of the `libsodium-sys` crate that installs stable
